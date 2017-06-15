@@ -1,0 +1,9 @@
+[Unit]
+Description=Devilspie2
+After=gvfs-daemon.service
+
+[Service]
+ExecStart=/usr/bin/devilspie2 --debug
+
+[Install]
+WantedBy=default.target
